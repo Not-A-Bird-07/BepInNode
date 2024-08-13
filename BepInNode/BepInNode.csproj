@@ -48,32 +48,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Il2CppInterop.Common">
-      <HintPath>D:\Games\POOLS\BepInEx\core\Il2CppInterop.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppInterop.Generator">
-      <HintPath>D:\Games\POOLS\BepInEx\core\Il2CppInterop.Generator.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppInterop.Runtime">
-      <HintPath>D:\Games\POOLS\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2Cppmscorlib">
-      <HintPath>D:\Games\POOLS\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppSystem">
-      <HintPath>D:\Games\POOLS\BepInEx\interop\Il2CppSystem.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>D:\Games\POOLS\BepInEx\interop\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Oculus\Software\Software\another-axiom-gorilla-tag\Gorilla Tag_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\Games\POOLS\BepInEx\unity-libs\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Oculus\Software\Software\another-axiom-gorilla-tag\Gorilla Tag_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>D:\Games\POOLS\BepInEx\interop\UnityEngine.InputLegacyModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Oculus\Software\Software\another-axiom-gorilla-tag\Gorilla Tag_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>D:\Games\POOLS\BepInEx\unity-libs\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Oculus\Software\Software\another-axiom-gorilla-tag\Gorilla Tag_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
   </ItemGroup>
 
