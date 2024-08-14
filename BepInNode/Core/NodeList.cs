@@ -16,7 +16,7 @@ namespace BepInNode.Core
         public static Dictionary<Node.NodeCategories, Dictionary<string, Node>> OrderedCategoryNodesPair = new();
         public static Dictionary<Node.NodeCategories, Dictionary<string, Node>> CategoryNodesPair = new()
         {
-            { Node.NodeCategories.Misc, new Dictionary<string, Node>() },
+            //{ Node.NodeCategories.Misc, new Dictionary<string, Node>() },
             { Node.NodeCategories.GameObject, new Dictionary<string, Node>() },
             { Node.NodeCategories.Transform, new Dictionary<string, Node>() },
             { Node.NodeCategories.MonoBehaviour, new Dictionary<string, Node>() },

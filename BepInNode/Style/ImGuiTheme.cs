@@ -55,6 +55,9 @@ public class ImGuiTheme
 
                 case Type t when t == typeof(UnityEngine.Rigidbody):
                     return new Vector4(1.00f, 0.87f, 0.57f, 1);
+
+                case Type t when t == typeof(UnityEngine.PrimitiveType):
+                    return new Vector4(0.0276f, 0.690f, 0.0607f, 1);
             }
             return new Vector4(0.00f, 0.66f, 0.95f, 1);
         }

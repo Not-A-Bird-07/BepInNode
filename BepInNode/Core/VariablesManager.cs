@@ -33,7 +33,8 @@ namespace BepInNode.Core
             typeof(UnityEngine.Component),
             typeof(UnityEngine.Rigidbody),
             typeof(UnityEngine.Transform),
-            typeof(object)
+            typeof(object),
+            typeof(PrimitiveType)
         };
 
         public static void DeleteVariable(KeyValuePair<string, Type> variable, int idIndex)
@@ -208,6 +209,15 @@ namespace BepInNode.Core
                                 Position = newPos
                             };
                             break;
+
+                        case Type t when t == typeof(PrimitiveType):
+                            varNode = new PrimitiveTypeGet()
+                            {
+                                Id = VariablesId[idx],
+                                Name = $"PrimitiveTypeGet ({variable.Key})",
+                                Position = newPos
+                            };
+                            break;
                     }
                     GraphEditor.GraphNodes.Add(varNode);
                 }
@@ -315,6 +325,15 @@ namespace BepInNode.Core
                             {
                                 Id = VariablesId[idx],
                                 Name = $"ObjectSet ({variable.Key})",
+                                Position = newPos
+                            };
+                            break;
+
+                        case Type t when t == typeof(PrimitiveType):
+                            varNode = new PrimitiveTypeSet()
+                            {
+                                Id = VariablesId[idx],
+                                Name = $"PrimitiveTypeSet ({variable.Key})",
                                 Position = newPos
                             };
                             break;
