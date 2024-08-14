@@ -69,6 +69,7 @@ public class Node
         Methods,
         Camera,
         Variables,
+        GorillaTagger
     }
 
     [XmlIgnore]
