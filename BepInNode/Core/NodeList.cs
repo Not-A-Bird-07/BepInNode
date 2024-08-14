@@ -36,6 +36,7 @@ namespace BepInNode.Core
             { Node.NodeCategories.Methods, new Dictionary<string, Node>() },
             { Node.NodeCategories.Camera, new Dictionary<string, Node>() },
             { Node.NodeCategories.GorillaTagger, new Dictionary<string, Node>() },
+            { Node.NodeCategories.Room, new Dictionary<string, Node>() },
         };
 
         public static Tabs _selectedTab = Tabs.Variables;
